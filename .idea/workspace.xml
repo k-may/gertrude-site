@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f68685-7f47-4dd5-bebf-0e99db3a7c72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/MainView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/MainView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sketches/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -34,6 +39,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MainView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sketches/js/views/MainView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="8" lean-forward="true" selection-end-line="238" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="frag.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,8 +60,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js">
+      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="586">
               <caret line="65" selection-start-line="65" selection-end-line="65" />
@@ -55,8 +72,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolygonTest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js">
+      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
               <caret line="27" selection-start-line="27" selection-end-line="31" />
@@ -67,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShapePositionTest.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js">
+      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+            <state relative-caret-position="581">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -166,7 +183,6 @@
         <option value="$PROJECT_DIR$/sketches/js/sketchesProxy.js" />
         <option value="$PROJECT_DIR$/sketches/js/sketchesPorxy.js" />
         <option value="$PROJECT_DIR$/sketches/data/config.json" />
-        <option value="$PROJECT_DIR$/sketches/js/views/MainView.js" />
         <option value="$PROJECT_DIR$/sketches/scss/sketches/_TWGLTest.scss" />
         <option value="$PROJECT_DIR$/sketches/js/views/BaseSketch.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/TWGLTest.js" />
@@ -177,13 +193,15 @@
         <option value="$PROJECT_DIR$/sketches/js/utils/CanvasUtils.js" />
         <option value="$PROJECT_DIR$/sketches/js/sketches.js" />
         <option value="$PROJECT_DIR$/sketches/scss/main.scss" />
-        <option value="$PROJECT_DIR$/sketches/index.html" />
         <option value="$PROJECT_DIR$/sketches/js/main.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js" />
+        <option value="$PROJECT_DIR$/sketches/index.html" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/MainView.js" />
       </list>
     </option>
   </component>
@@ -210,8 +228,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2251" />
-    <option name="y" value="-499" />
+    <option name="x" value="-2550" />
+    <option name="y" value="-517" />
     <option name="width" value="1298" />
     <option name="height" value="1398" />
   </component>
@@ -246,40 +264,6 @@
               <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
-              <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
-              <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
-              <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
-              <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="4.x" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
@@ -372,18 +356,18 @@
       <workItem from="1528112328219" duration="348000" />
       <workItem from="1528112687058" duration="520000" />
       <workItem from="1528114801148" duration="1783000" />
-      <workItem from="1528124955199" duration="9182000" />
+      <workItem from="1528124955199" duration="10639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43602000" />
+    <option name="totallyTimeSpent" value="45059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2251" y="-499" width="1298" height="1398" extended-state="0" />
+    <frame x="-2550" y="-517" width="1298" height="1398" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2403698" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -391,8 +375,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2545317" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39954683" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2545317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954683" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,11 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/MainView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1706" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/node_modules/twgl.js/dist/4.x/twgl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -548,13 +527,6 @@
     <entry file="file://$PROJECT_DIR$/sketches/core/ui/tabs/state/StateTab.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -569,17 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/vert.glsl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js">
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
@@ -596,7 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js">
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="27" selection-start-line="27" selection-end-line="31" />
@@ -606,12 +571,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js">
+    <entry file="file://$PROJECT_DIR$/sketches/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/MainView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" lean-forward="true" selection-end-line="238" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
