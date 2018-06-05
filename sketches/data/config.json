@@ -1,0 +1,20 @@
+{
+    "sketches": {
+        "Test": {
+            "view": "Test/SketchView",
+            "date": "2018-06-04T12:20:39.785Z",
+            "author": "kevinmayo"
+        },
+        "PolygonTest": {
+            "view": "PolygonTest/SketchView",
+            "date": "2018-06-05T12:37:57.710Z",
+            "author": "kevinmayo"
+        },
+        "ShapePositionTest": {
+            "view": "ShapePositionTest/SketchView",
+            "date": "2018-06-05T13:22:55.170Z",
+            "author": "kevinmayo"
+        }
+    },
+    "project": "gertrude"
+}
