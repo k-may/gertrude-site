@@ -3,11 +3,246 @@
   <component name="ChangeListManager">
     <list default="true" id="63f68685-7f47-4dd5-bebf-0e99db3a7c72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches/js/views/MainView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/MainView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/assets/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/buildextensions.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/reset-context.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/stacktrace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/LGPL-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/MIT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/shBrushGLSL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/dependencies/syntaxhighlighter_3.0.83/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/button-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/button-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/draw-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/element-array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/gutter-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/icon-current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/icon-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/icon-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/isolated-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/mini-button-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/mini-button-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/mini-button-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-command-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-command-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-command-rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-command-run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-command-rununtil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/minibar-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/texture-2d-array.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/texture-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/texture-3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/texture-cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/assets/window-top-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/contentscript-debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/contentscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/gli.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/gli.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/webgl-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/webgl-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/chrome/webgl-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/data/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/data/shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/doc/main.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/icon48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/lib/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/firefox/test/test-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/Settings.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/button-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/button-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/draw-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/element-array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/gutter-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/icon-current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/icon-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/icon-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/isolated-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/mini-button-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/mini-button-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/mini-button-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-command-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-command-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-command-rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-command-run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-command-rununtil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/minibar-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/texture-2d-array.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/texture-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/texture-3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/texture-cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/assets/window-top-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/contentscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/gli.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/gli.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/extensions/safari/webglinspector.safariextension/webgl-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/gli-require-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/gli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/CSSLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/CaptureContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/Frame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/HostUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/Notifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/Resource.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/ResourceCache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/ResourceVersion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/StateSnapshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Framebuffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Program.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Renderbuffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Shader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/Texture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/VertexArrayObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/host/resources/VertexArrayObjectOES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/button-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/button-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/draw-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/element-array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/gutter-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/icon-current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/icon-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/icon-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/isolated-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/mini-button-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/mini-button-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/mini-button-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-command-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-command-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-command-rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-command-run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-command-rununtil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/minibar-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/texture-2d-array.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/texture-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/texture-3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/texture-cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/assets/window-top-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/gli.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/lib/gli.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/replay/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/replay/RedundancyChecker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/EventSource.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/GLConsts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Hacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/ShaderUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/SplitterBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/TextureInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/Utilities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/m4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/shared/v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/Helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/Tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/Window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/button-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/button-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/draw-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/element-array-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/gutter-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/icon-current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/icon-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/icon-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/isolated-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/mini-button-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/mini-button-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/mini-button-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-command-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-command-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-command-rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-command-run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-command-rununtil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/minibar-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/texture-2d-array.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/texture-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/texture-3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/texture-cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/assets/window-top-span.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/drawinfo/DrawInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/gli.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/pixelhistory/PixelHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/BufferPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/LeftListing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/PopupWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/SurfaceInspector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/TexturePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/shared/TraceLine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/buffers/BufferView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/buffers/BuffersTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/performance/PerformanceTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/performance/PerformanceView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/programs/ProgramView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/programs/ProgramsTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/state/StateTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/state/StateView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/textures/TexturePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/textures/TextureView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/textures/TexturesTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/timeline/TimelineTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/timeline/TimelineView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/trace/TraceListing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/trace/TraceTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/trace/TraceView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/vertexarrays/VertexArrayView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/ui/tabs/vertexarrays/VertexArraysTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/core/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/css/dat.gui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/data/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/dist/4.x/twgl-full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/dist/4.x/twgl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/sketches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/utils/CanvasUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/utils/LoadingUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/utils/TransformUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/vendor/sylvester.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/vendor/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/BaseSketch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/BaseView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/MainView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/components/MenuView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/_menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/sketches/_PolygonTest.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/sketches/_ShapePositionTest.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketches/scss/sketches/_Test.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,112 +255,112 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/MainView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="8" lean-forward="true" selection-end-line="238" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frag.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="27" selection-start-line="27" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SketchView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sketches.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/sketches.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vert.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/vert.glsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="vert.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5943523">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="WobblyShape.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyShape.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="427">
+                  <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="frag-sprite.glsl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag-sprite.glsl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WobblyMask.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyMask.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="32" column="103" lean-forward="true" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vert-sprite.glsl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert-sprite.glsl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vert.glsl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert.glsl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="frag.glsl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag.glsl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StateTab.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sketches/js/vendor/core/ui/tabs/state/StateTab.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="twgl-full.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/node_modules/twgl.js/dist/4.x/twgl-full.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="2892" column="24" lean-forward="true" selection-start-line="2892" selection-start-column="24" selection-end-line="2892" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="GLSL Shader" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -154,6 +389,9 @@
       <find>bufferInfo</find>
       <find>canvas</find>
       <find>.ctx</find>
+      <find>index * Math.PI*2</find>
+      <find>amplitude</find>
+      <find>vec3</find>
     </findStrings>
     <replaceStrings>
       <replace>Utils</replace>
@@ -162,6 +400,10 @@
       <replace>this.bufferInfo</replace>
       <replace>this.canvas</replace>
       <replace>this.gl</replace>
+      <replace>*2</replace>
+      <replace>angle</replace>
+      <replace>ampA</replace>
+      <replace>ampB</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,10 +421,8 @@
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/BaseView.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test2/Test2.js" />
-        <option value="$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.js" />
         <option value="$PROJECT_DIR$/sketches/js/sketchesProxy.js" />
         <option value="$PROJECT_DIR$/sketches/js/sketchesPorxy.js" />
-        <option value="$PROJECT_DIR$/sketches/data/config.json" />
         <option value="$PROJECT_DIR$/sketches/scss/sketches/_TWGLTest.scss" />
         <option value="$PROJECT_DIR$/sketches/js/views/BaseSketch.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/TWGLTest.js" />
@@ -192,16 +432,30 @@
         <option value="$PROJECT_DIR$/sketches/js/node_modules/twgl-base.js/dist/4.x/twgl.js" />
         <option value="$PROJECT_DIR$/sketches/js/utils/CanvasUtils.js" />
         <option value="$PROJECT_DIR$/sketches/js/sketches.js" />
-        <option value="$PROJECT_DIR$/sketches/scss/main.scss" />
-        <option value="$PROJECT_DIR$/sketches/js/main.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" />
-        <option value="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js" />
-        <option value="$PROJECT_DIR$/sketches/index.html" />
         <option value="$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.txt" />
         <option value="$PROJECT_DIR$/sketches/js/views/MainView.js" />
+        <option value="$PROJECT_DIR$/sketches/scss/main.scss" />
+        <option value="$PROJECT_DIR$/sketches/scss/sketches/_Test.scss" />
+        <option value="$PROJECT_DIR$/sketches/data/config.json" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/vert.glsl" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/WobblyShape.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/Sprite.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert-sprite.glsl" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/frag.glsl" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag.glsl" />
+        <option value="$PROJECT_DIR$/sketches/index.html" />
+        <option value="$PROJECT_DIR$/sketches/js/main.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag-sprite.glsl" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert.glsl" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyShape.js" />
+        <option value="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyMask.js" />
       </list>
     </option>
   </component>
@@ -223,14 +477,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/sketches/core/extensions/firefox/package.json" />
-      <path value="$PROJECT_DIR$/sketches/js/node_modules/twgl.js/package.json" />
+      <path value="$PROJECT_DIR$/sketches/js/vendor/core/extensions/firefox/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2550" />
+    <option name="x" value="-2552" />
     <option name="y" value="-517" />
-    <option name="width" value="1298" />
+    <option name="width" value="2543" />
     <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -241,6 +494,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,19 +505,71 @@
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="WobblyShape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="twgl.js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="4.x" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
@@ -287,19 +593,21 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="ShapePositionTest" type="462c0819:PsiDirectoryNode" />
+              <item name="WobblyMask" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gertrude-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="gertrude-site" type="462c0819:PsiDirectoryNode" />
               <item name="sketches" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="sketches" type="462c0819:PsiDirectoryNode" />
+              <item name="WobblyShape" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,12 +623,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sketches" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sketches/js/vendor" />
+      <recent name="$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask" />
       <recent name="$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest" />
       <recent name="$PROJECT_DIR$/sketches/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sketches/js/views/sketches" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sketches/js/vendor" />
+      <recent name="$PROJECT_DIR$/sketches" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -356,22 +669,24 @@
       <workItem from="1528112328219" duration="348000" />
       <workItem from="1528112687058" duration="520000" />
       <workItem from="1528114801148" duration="1783000" />
-      <workItem from="1528124955199" duration="10639000" />
+      <workItem from="1528124955199" duration="15559000" />
+      <workItem from="1528357634488" duration="628000" />
+      <workItem from="1528359105849" duration="20375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45059000" />
+    <option name="totallyTimeSpent" value="70982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2550" y="-517" width="1298" height="1398" extended-state="0" />
+    <frame x="-2552" y="-517" width="2543" height="1398" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2403698" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12268974" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,6 +699,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,86 +714,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/SketchView.js" />
-    <entry file="file://$PROJECT_DIR$/../gertrude/app/update.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/SketchView.js" />
-    <entry file="file://$PROJECT_DIR$/../gertrude/app/update.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/SketchView.js" />
-    <entry file="file://$PROJECT_DIR$/../gertrude/app/update.js" />
-    <entry file="file://$PROJECT_DIR$/../gertrude/app/update.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/utils/Utils.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/utils/TransformUtils.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/utils/LoadingUtils.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/components/MenuView.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js" />
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js" />
     <entry file="file://$PROJECT_DIR$/sketches/js/views/BaseView.js" />
     <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test2/Test2.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.js" />
     <entry file="file://$PROJECT_DIR$/sketches/js/sketchesProxy.js" />
-    <entry file="file://$PROJECT_DIR$/sketches/data/config.json" />
     <entry file="file://$PROJECT_DIR$/sketches/scss/sketches/_TWGLTest.scss" />
     <entry file="file://$PROJECT_DIR$/sketches/js/views/BaseSketch.js" />
     <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/TWGLTest/TWGLTest.js" />
@@ -514,45 +754,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/css/main.css">
+    <entry file="file://$PROJECT_DIR$/sketches/js/vendor/core/ui/tabs/state/StateTab.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/core/ui/tabs/state/StateTab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/vert.glsl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/SketchView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/sketches.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,46 +767,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/SketchView.js">
+    <entry file="file://$PROJECT_DIR$/sketches/js/vendor/dat.gui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="27" selection-start-line="27" selection-end-line="31" />
+        <state relative-caret-position="735">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/template/SketchView.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sketches/js/vendor/dat.gui.module.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sketches/scss/_menu.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/SketchView.js">
+    <entry file="file://$PROJECT_DIR$/sketches/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sketches/js/views/MainView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" lean-forward="true" selection-end-line="238" />
+        <state relative-caret-position="618">
+          <caret line="96" column="54" lean-forward="true" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/scss/sketches/_Test.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/data/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/frag.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/Test/vert.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/node_modules/noisejs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="277" column="41" lean-forward="true" selection-start-line="277" selection-start-column="41" selection-end-line="277" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/node_modules/simplex-noise/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/ShapePositionTest/ShapePositionTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing/WobblyShape/WobblyShape.pde">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/vert.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/PolygonTest/PolygonTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" selection-start-line="23" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/Sprite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/WobblyShape.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="45" selection-end-line="172" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyShape/frag.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/vendor/core/ui/tabs/state/StateTab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/twgl.js/dist/4.x/twgl-full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="2892" column="24" lean-forward="true" selection-start-line="2892" selection-start-column="24" selection-end-line="2892" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert-sprite.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/frag-sprite.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/vert.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyShape.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketches/js/views/sketches/WobblyMask/WobblyMask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="32" column="103" lean-forward="true" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

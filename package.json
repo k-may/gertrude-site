@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/k-may/gertrude-site#readme",
   "dependencies": {
+    "simplex-noise": "^2.4.0",
     "twgl.js": "^4.4.0"
   }
 }

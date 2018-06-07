@@ -33,14 +33,6 @@
   .menu:hover li {
     display: block; }
 
-.PolygonTest canvas {
-  display: block;
-  position: fixed; }
-
-.ShapePositionTest canvas {
-  display: block;
-  position: fixed; }
-
 .Test canvas {
   display: block;
   position: fixed; }

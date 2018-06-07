@@ -2,7 +2,7 @@ import {BaseSketch} from "../../BaseSketch.js";
 import "../../../node_modules/twgl.js/dist/4.x/twgl.js";
 import {LoadingUtils} from "../../../utils/LoadingUtils.js";
 
-export default class SketchView extends BaseSketch {
+export default class Test extends BaseSketch {
 
     constructor() {
         super('Test');
