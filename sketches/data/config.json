@@ -19,6 +19,22 @@
         "WobblyMask": {
             "date": "2018-06-07T13:03:44.241Z",
             "author": "kevinmayo"
+        },
+        "TwglTexture": {
+            "date": "2018-06-08T10:37:35.244Z",
+            "author": "kevinmayo"
+        },
+        "TwglMatrix": {
+            "date": "2018-06-08T12:31:04.057Z",
+            "author": "kevinmayo"
+        },
+        "TwglCube": {
+            "date": "2018-06-08T13:15:14.488Z",
+            "author": "kevinmayo"
+        },
+        "FaceDetection": {
+            "date": "2018-06-11T10:06:07.674Z",
+            "author": "kevinmayo"
         }
     },
     "project": "gertrude"

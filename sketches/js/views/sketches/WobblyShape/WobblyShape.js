@@ -151,16 +151,16 @@ export default class WobblyShape extends BaseSketch {
         this.el.innerHTML = html;
     }
 
-    onResize(w, h) {
+        onResize(w, h) {
 
-        if (!this.gl)
-            return;
+            if (!this.gl)
+                return;
 
-        if (w !== this.width || h !== this.height) {
-            this.canvas.width = this.width = w;
-            this.canvas.height = this.height = h;
+            if (w !== this.width || h !== this.height) {
+                this.canvas.width = this.width = w;
+                this.canvas.height = this.height = h;
+            }
         }
-    }
 
     onMouseMove(e) {
         this._position = {x: e.clientX, y: e.clientY};

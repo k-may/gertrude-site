@@ -18,6 +18,10 @@ export default class WobblyShape{
         this._position = value;
     }
 
+    get position(){
+        return this._position;
+    }
+
     getShape() {
 
         var position = [];

@@ -2,6 +2,7 @@
 precision mediump float;
 
 in vec2 v_texCoord;
+in float v_color;
 
 uniform sampler2D u_texture;
 

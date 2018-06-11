@@ -25,7 +25,7 @@ export class BaseSketch extends BaseView{
      * @param args (Array) : [width, height]
      * @private
      */
-    onResize(args) {
+    onResize(w, h) {
     }
 
 }

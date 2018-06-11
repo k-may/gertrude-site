@@ -33,7 +33,27 @@
   .menu:hover li {
     display: block; }
 
+.FaceDetection canvas {
+  display: block;
+  position: fixed; }
+
 .Test canvas {
+  display: block;
+  position: fixed; }
+
+.TwglCube canvas {
+  display: block;
+  position: fixed; }
+
+.TwglMatrix canvas {
+  display: block;
+  position: fixed; }
+
+.TwglTexture canvas {
+  display: block;
+  position: fixed; }
+
+.WobblyMask canvas {
   display: block;
   position: fixed; }
 
