@@ -35,6 +35,10 @@
         "FaceDetection": {
             "date": "2018-06-11T10:06:07.674Z",
             "author": "kevinmayo"
+        },
+        "MaskBuffer": {
+            "date": "2018-06-12T12:00:21.922Z",
+            "author": "kevinmayo"
         }
     },
     "project": "gertrude"

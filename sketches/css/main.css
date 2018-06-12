@@ -37,6 +37,10 @@
   display: block;
   position: fixed; }
 
+.MaskBuffer canvas {
+  display: block;
+  position: fixed; }
+
 .Test canvas {
   display: block;
   position: fixed; }
