@@ -30,7 +30,6 @@ export default class FaceDetection extends BaseSketch {
             this.nBox = {x: 0, y: 0, w: 0, h: 0};
 
             this.faceBuffer = CanvasUtils.CreateBuffer();
-
             this.buffer = CanvasUtils.CreateBuffer();
 
             this.el.appendChild(this.buffer.canvas);
@@ -68,13 +67,13 @@ export default class FaceDetection extends BaseSketch {
                 var scaleBuffer = this.buffer.width / this.faceBuffer.width;
 
                 this.mBox = this._seeBox(this._getMouthBox(positions), this.mBox, scale, scaleBuffer, {
-                    x: Math.cos(time * 0.001) * 1,
-                    y: Math.sin(time * 0.001) * 1
+                    x: Math.sin(time * 0.0005) * 1,
+                    y: Math.cos(time * 0.0005) * 1
                 },pineapple);
 
                 this.nBox = this._seeBox(this._getNoseBox(positions), this.nBox, scale, scaleBuffer, {
-                    x: Math.cos(time * 0.001) * 1,
-                    y: Math.sin(time * 0.001) * 1
+                    x: Math.sin(time * 0.0001) * 1,
+                    y: Math.cos(time * 0.0005) * 1
                 },pineapple);
 
                 this.lBox = this._seeBox(this._getLeftEyeBox(positions), this.lBox, scale, scaleBuffer, {
@@ -104,6 +103,8 @@ export default class FaceDetection extends BaseSketch {
         if (this.buffer)
             this.buffer.resize(w, h);
     }
+
+    //------------------------------
 
     _seeBox(box, target, scale, scaleBuffer, rotation, pineapple) {
 
