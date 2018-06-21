@@ -211,8 +211,10 @@ export class MainView extends BaseView {
             var value = params[key];
             if (params[key] !== undefined) {
                 if (Array.isArray(value) && value.length > 1) {
-                    if (value.length == 2)
-                        this._gui.add(this._sketch, key).min(value[0]).max(value[1]).listen();
+                    if (value.length == 2) {
+                        var gui = this._gui.add(this._sketch, key, value[0], value[1]);
+                        //gui.min(value[0]).max(value[1]).listen();
+                    }
                 } else
                     this._gui.add(this._sketch, key, value).listen();
             } else {

@@ -7,7 +7,12 @@ var fbi;
 
 class Item {
 
-    constructor(gl) {
+    constructor(gl, stencilInFunc, stencilOutFunc, stencilOp) {
+
+        this._stencilInFun = stencilInFunc;
+        this._stencilOutFunc = stencilOutFunc;
+
+        this._stencilOp = stencilOp;
 
         this.gl = gl;
         this.loaded = false;
@@ -19,11 +24,11 @@ class Item {
             h: 200
         };
 
-        var path = 'js/views/sketches/MaskBuffer/';
         LoadingUtils.LoadImage("assets/pineapple.png").then(img => {
+            var path = 'js/views/sketches/MaskBufferInverted/';
             LoadingUtils.LoadShaders([path + 'vert.glsl', path + 'frag.glsl', path + 'sprite-frag.glsl']).then(src => {
-                this.position.w = img.naturalWidth * 0.2;
-                this.position.h = img.naturalHeight * 0.2;
+              /*  this.position.w = img.naturalWidth * 0.2;
+                this.position.h = img.naturalHeight * 0.2;*/
                 this.spriteProgramInfo = twgl.createProgramInfo(this.gl, [src[0], src[2]]);
                 this.programInfo = twgl.createProgramInfo(this.gl, src.slice(0, 2));
                 this.pineappleTexture = twgl.createTexture(this.gl, {
@@ -46,9 +51,10 @@ class Item {
         };
         this.plane = twgl.createBufferInfoFromArrays(this.gl, arrays);
 
+        this.orthoMatrix = m4.ortho(0, window.innerWidth, window.innerHeight, 0, -1, 1);
         this.bgMatrix = this._getBgMatrix();
         this.fbMatrix = this._getFBMatrix();
-        this.orthoMatrix =  m4.ortho(0, this.position.w, this.position.h, 0, -1, 1);
+
         if (!Item.FBI) {
             const attachments = [
                 {format: this.gl.RGBA, mag: this.gl.NEAREST},
@@ -56,26 +62,36 @@ class Item {
             ];
             Item.FBI = twgl.createFramebufferInfo(this.gl, attachments, this.position.w, this.position.h);
         }
+
+        //unbind fbo
         twgl.bindFramebufferInfo(this.gl, null);
 
     }
 
-    drawStencil(time){
+    drawStencil(time) {
 
         if (!this.spriteProgramInfo)
             return;
 
-        this.gl.viewport(0, 0, this.position.w, this.position.h);
+        //start stencil
+        // Replacing the values at the stencil buffer to 1 on every pixel we draw
+
+        this.gl.stencilFunc(this._stencilInFun, 1, 1);
+        this.gl.stencilOp(this.gl.REPLACE, this.gl.REPLACE, this.gl.REPLACE);
+        this.gl.depthMask(false);
+        // disable color (u can also disable here the depth buffers)
+        this.gl.colorMask(false, false, false, false);
 
         this.drawMask(time);
 
         // Telling the stencil now to draw/keep only pixels that equals 1 - which we set earlier
-        this.gl.stencilFunc(this.gl.EQUAL, 1, 1);
+        this.gl.stencilFunc(this._stencilOutFunc, 1, 1);
         this.gl.stencilOp(this.gl.KEEP, this.gl.KEEP, this.gl.KEEP);
         // enabling back the color buffer
         this.gl.colorMask(true, true, true, true);
 
         this.drawBg();
+
     }
 
     draw(time) {
@@ -100,7 +116,7 @@ class Item {
         //draw bg
         this.gl.useProgram(this.programInfo.program);
         twgl.setUniforms(this.programInfo, {
-            "u_matrix": this.bgMatrix
+            "u_matrix": this._getBgMatrix(0),
         });
         twgl.setBuffersAndAttributes(this.gl, this.programInfo, this.plane);
         twgl.drawBufferInfo(this.gl, this.plane);
@@ -121,20 +137,22 @@ class Item {
     //-------------------------------
 
     _getFBMatrix() {
-        var m = m4.ortho(0, this.gl.canvas.width, this.gl.canvas.height, 0, -1, 1);
-        m = m4.translate(m, [this.position.x, this.position.y, 0]);
+        var m = m4.translate(this.orthoMatrix, [this.position.x, this.position.y, 0]);
         return m4.scale(m, [this.position.w, this.position.h, 0]);
     }
 
     _getBgMatrix() {
-        var m = m4.ortho(0, this.position.w, this.position.h, 0, -1, 1);
-        m = m4.scale(m, [this.position.w, this.position.h, 0]);
-        return m;
+        var m = m4.translate(this.orthoMatrix, [this.position.x, this.position.y, 0]);
+        return m4.scale(m, [this.position.w, this.position.h, 0]);
     }
 
     _getMaskMatrix(rot) {
-        //var m = m4.ortho(0, this.position.w, this.position.h, 0, -1, 1);
-        var m = m4.translate( this.orthoMatrix, [this.position.w / 2, this.position.h / 2, 0]);
+       /* var m = m4.translate( this.orthoMatrix, [-this.position.w / 2, -this.position.h / 2, 0]);
+        m = m4.rotateZ(m, rot);
+        m = m4.translate(m, [this.position.w / 2, this.position.h / 2, 0]);
+        return m4.scale(m, [this.position.w, this.position.h, 0]);*/
+
+        var m = m4.translate( this.orthoMatrix, [this.position.x + this.position.w / 2, this.position.y + this.position.h / 2, 0]);
         m = m4.rotateZ(m, rot);
         m = m4.translate(m, [-this.position.w / 2, -this.position.h / 2, 0]);
         return m4.scale(m, [this.position.w, this.position.h, 0]);

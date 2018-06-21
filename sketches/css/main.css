@@ -33,11 +33,19 @@
   .menu:hover li {
     display: block; }
 
+.FaceBlur canvas {
+  display: block;
+  position: fixed; }
+
 .FaceDetection canvas {
   display: block;
   position: fixed; }
 
 .MaskBuffer canvas {
+  display: block;
+  position: fixed; }
+
+.MaskBufferInverted canvas {
   display: block;
   position: fixed; }
 
@@ -54,6 +62,10 @@
   position: fixed; }
 
 .TwglTexture canvas {
+  display: block;
+  position: fixed; }
+
+.WobblyGlow canvas {
   display: block;
   position: fixed; }
 

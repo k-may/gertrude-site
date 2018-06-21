@@ -1,7 +1,7 @@
 import {BaseSketch} from "../../BaseSketch.js";
 import {LoadingUtils} from "../../../utils/LoadingUtils.js";
 import "../../../node_modules/twgl.js/dist/4.x/twgl-full.js";
-
+var m4 = twgl.m4;
 export default class TwglTexture extends BaseSketch {
 
     constructor() {
@@ -27,7 +27,7 @@ export default class TwglTexture extends BaseSketch {
                 texture: twgl.createTexture(this.gl, {src: "assets/WobblyMask/face.png"})
             });
 
-            var matrix = twgl.m4.identity();
+            var matrix = m4.identity();
             twgl.m4.rotateX(matrix, Math.PI /2);
             this._sprite2 = twgl.primitives.createPlaneBufferInfo(this.gl);
             twgl.setUniforms(this._sprite2, {
